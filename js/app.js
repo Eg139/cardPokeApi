@@ -7,7 +7,7 @@ const water = "images/agua.jpg";
 const bug = "images/bicho.jpg";
 const dragon = "images/dragon.jpg";
 const electric = "images/electrico.jpg";
-const ghost = "images/fantasma.png";
+const ghost = "images/fantasma.jpg";
 const fight = "images/lucha.jpg";
 const psychic = "images/psiquico.jpg";
 const rock = "images/roca.jpg";
@@ -100,6 +100,9 @@ const pintarCard = (pokemon) => {
         break;
         case "bug":
         clone.querySelector('.card-header').setAttribute('src', bug)
+        break;
+        case "dragon":
+        clone.querySelector('.card-header').setAttribute('src', dragon)
         break;
 
                 default:
