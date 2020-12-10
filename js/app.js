@@ -125,7 +125,7 @@ var particulas ={
   }
 
 document.addEventListener('DOMContentLoaded', ()=> {
-    const random = getRandomInt(252,387)
+    const random = getRandomInt(1,387)
     fetchData(random)
 })
 
